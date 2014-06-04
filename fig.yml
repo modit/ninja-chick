@@ -1,0 +1,8 @@
+web:
+  build: .
+  command: npm start
+  expose:
+    - 80
+  environment:
+    WEB_PORT: 80
+    LOGIN: false
